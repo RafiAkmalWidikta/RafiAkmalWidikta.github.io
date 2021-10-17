@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: #eaeaea;
+	
+}
+
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 20px;
+	
+}
+.nav ul{
+    background: #393E46;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: right;
+    margin-right: 25px;
+}
+.nav ul li:hover{
+    background: #95E1D3;
+    
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #bdc3c7;
+    text-decoration: none;
+}
+
+
+.upacara-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-upacara {
+    width: 20%;
+    margin: 0 auto;
+    
+}
+
+.kartu-upacara img {
+    width:  80%;
+    border-radius: 50%;
+    margin-left: 50px;
+    
+    
+}
+
+.kartu-upacara p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+    margin-left: 25px;
+}
